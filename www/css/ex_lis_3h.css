@@ -151,6 +151,44 @@
 	background-position: 0% 50%;
 	max-width: 500px;
 }
+
+/* ____________contacts link start_________ */
+.link-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.link-box--container {
+	margin: 10px 20px 20px 20px;
+}
+.link-box__a {
+	font-size: 20px;
+	font-weight: 500;
+	color: #ffffff;
+	background-color: #64AFFF;
+	text-transform: uppercase;
+	text-align: center;
+	
+	padding: 10px 20px;
+	border: 2px solid transparent;
+	border-radius: 20px;
+
+	transition: all 0.3s ease;
+}
+@media (any-hover: hover) {
+	.link-box__a:hover {
+		color: #64AFFF;
+		background-color: #ffffff;
+		border-color: #64AFFF;
+		border-radius: 15px;
+	}
+}
+.link-box__a:active {
+	color: #ffffff;
+	background-color: #64AFFF;
+	border-radius: 20px;
+}
+/* ____________contacts link end_________ */
 /* ___________________exc-descript__________________________ */
 .exc-descript {
 	display: flex;
